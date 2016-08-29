@@ -1,0 +1,18 @@
+{
+  "index.html": {
+    "resources": [
+      "js/bmob.js",
+      "css/style.css",
+      "js/touchSwipe.js"
+    ]
+  },
+  "JianZhi.html": {
+    "resources": [
+      "js/iscroll-probe.js",
+      "js/bmob.js",
+      "js/jquery.min.js",
+      "css/jianzhi.css",
+      "js/touchSwipe.js"
+    ]
+  }
+}

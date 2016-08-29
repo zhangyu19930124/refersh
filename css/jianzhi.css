@@ -1,0 +1,74 @@
+@charset 'utf-8';
+.cont_div a .img span img{
+	width: 60px;
+	height: 60px;
+}
+#content .cont_div{
+	/*background-color: red;*/
+	list-style: none;
+	height: 110px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content .cont_div a {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    height: 110px;
+    text-decoration: none;
+}
+#content .cont_div a .contained .title_time{
+    height: 32%;
+   font-size: 20px;
+   color: #272727;
+   font-weight: bold;
+   margin-top: 2.5%;
+   /*margin-top: 2%;*/
+}
+#content .cont_div a .contained .place{
+    height: 32%;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #737373;
+}
+#content .cont_div a .contained .money{
+    height: 32%;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #FB0000;
+}
+#content .cont_div a .contained .time{
+    font-weight: bolder;
+    font-size: 12px;
+    color: #737373;
+    position: absolute;
+    right: 10px;
+}
+#content .cont_div a .contained{
+    margin: 0px;
+    width: 75%;
+    height: 110px;
+    position: relative;
+    float: left;
+}
+.img{
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 25%;
+    height: 110px;
+
+}
+.img #sp1 {
+    margin:0 auto;
+    overflow: hidden;
+    width: 25%;
+    height: 110px;
+    text-align: center;
+    vertical-align:middle;
+    display: table-cell;
+}
+.img img{
+    width: 60px;
+    height:60px;
+}

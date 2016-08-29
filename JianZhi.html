@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>页面详情</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/bmob.js"></script>
+    <script type="text/javascript" src="js/touchSwipe.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <style type="text/css">
+    	#content_ul li{
+    		border:0px;
+    	}
+    </style>
+</head>
+<body>
+	<div id="pageone" data-role="page" data-theme="c">
+			<div id="header" data-role="header" data-theme="c" data-position="fixed">
+				<a href="" data-icon="arrow-l">返回</a>
+				<h1>详细信息</h1>
+			</div>
+			<div id="content" data-role="content">
+				<ul id="content_ul" data-role="listview" data-theme="d">
+					<li style="margin-top: 0px;">
+					  <div id="" class="cont_a1" style="position: relative;">
+					  	<span id="sp1"></span>
+					  	<span id="sp2"></span>
+					  </div>
+					  <div class="cont_a2"></div>
+					</li>
+					<li>
+						<div>
+							兼职类型:
+							<span>其他</span>
+						</div>
+						<div class="cont_b1">
+							招聘人数:
+							<span>0/6人</span>
+						</div>
+						<div id="money" class="cont_b1">
+							工资待遇:
+							<span></span>
+						</div>
+						<div class="cont_b1">
+							性别要求:
+							<span>不限</span>
+						</div>
+					    <hr/>
+						<div class="cont_b1">
+							发布机构:
+							<span>万达有限公司</span>
+						</div>
+					</li>
+					<li>
+						<div>
+							工作日期:
+							<span>7月6日起工作到8月底</span>
+						</div>
+						<div class="cont_b1">
+							上班时段:
+							<span>不限</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont_c">
+							<span class="cont_c1">已联系工作的人:</span>
+							<div class="cont_c2">
+								<span>7人<span class="cont_c21">></span></span>
+							</div>
+							
+						</div>
+					</li>
+				    <li class="cont_l5">
+				     <span class="cont_sp cont_sp1">工作咨询</span>
+				     <div id="cont_l51"></div>
+				     <div class="check"><a href="#">查看全部咨询</a></div>
+				    </li>
+				    <li>
+				     <span class="cont_sp">
+				     	工作内容
+				     </span>
+				     <div id="positive" style="border-top: 1px solid; margin-top: 10px; padding-top: 10px;">
+				     		<strong>岗位职责:</strong>
+							<ul>
+								<li>1、 员工管理：安排员工班次;员工考勤;检查员工仪容仪表;组织晨会;员工工作考核。</li>
+								<li>2、 商品管理：商品陈列;补货;检查条形码与价格是否正确;组织商品盘点，是否有商品丢失，是否有商品损坏。</li>
+								<li>3、 店面管理：检查门面、门口地面、店内玻璃、地板、货架、商品是否清洁;走道是否畅通无阻。</li>
+								<li>4、 收银管理：每天是否有备用零钞;收银区是否干净清洁;票据是否备好;收银记录是否准确。</li>
+								<li>5、 服务管理：是否正确使用服务用语;是否有人迎宾。</li>
+								<li>6、 协助顾客购物，解答顾客疑问</li>
+								<li>7、 销售分析及货物调配</li>
+								<li>8、 防止盗窃损失</li>
+							</ul>
+				     	   <strong>任职资格:</strong>
+				     	   <ul>
+				     	   	<li>1.积极主动、热情礼貌地服务顾客;</li>
+				     	   	<li>2.负责所辖商品区域的卫生、陈列、安全、补货与物料准备;</li>
+				     	   	<li>3.主动向顾客推销商品;</li>
+				     	   	<li>4.协助同事，达成团队协作;</li>
+				     	   	<li>5.尊重及服从上级的分配与安排;</li>
+				     	   </ul>
+				     </div>
+				    </li>
+				    <li>
+				    <span id="">
+				    	联系方式:
+				    </span>
+				    <div style="border-top: 1px solid; margin-top: 10px;padding-top: 10px;padding-bottom: 50px;">
+				    	<div class="cont_c">
+							<span class="cont_c1" id="address">详细地址:</span>
+							<div class="cont_c2">
+								<span><span class="cont_c21">></span></span>
+							</div>
+						</div>
+					    <div class="person">
+					        <span id="">
+					       		联系人: 王经理
+					       	</span>
+					    </div>
+					    <div class="tele">
+					        <span id="">
+					       		联系电话:
+					       	</span>
+					    </div>
+				    </div>
+				    </li>
+				</ul>
+				</div>
+				
+			</div>
+	   <div id="footer"></div>
+	     <script type="text/javascript">
+	     console.log("都好都好都好都好");
+		Bmob.initialize("99fa1b916f70bcef5f6da908994f9348","0dba68e39f3ec1f8aeddbfe8d049dd4c");
+	    var JianZhi = Bmob.Object.extend("T_jianzhi");
+		var query = new Bmob.Query(JianZhi);
+		var p1 = "http://file.bmob.cn/";
+		
+		var limit = 3;
+		var pages = 0;
+		query.limit(limit);
+          query.find({
+	          success: function(results) {
+	            for (var i = 0; i < results.length; i++) {
+	              var object = results[i];
+	              var title = object.get('Jianzhi_Title'); 
+	              var place = object.get('Jianzhi_Place');
+	              var money = object.get('Jianzhi_money');
+	              var time = object.createdAt;
+	              var url  = object.get("Jianzhi_Url");
+                  var Time = getDateTimeStamp(time);
+                  var time1 = getDateDiff(Time);
+                  var id = object.id;
+                  console.log(id);
+	              // console.log(url);
+	              var p = '<hr/><div class="content_div" id="'+id+'"><a style="clear:both"><div class="img"><span id="sp1"><img src="'+url+'"></span></div><div class="contained"><div class="title_time"><span class="title">'+title+'</span><span class="time">'+time1+'</span></div><div class="place">'+place+'</div><div class="money">'+money+'</div></div></a></div>';
+	              $('.cont_l5 #cont_l51').append(p);
+	            }
+	           $('.cont_sp1').append('<span>('+results.length+')</span>');
+	          },
+	          error: function(error) {
+	            alert("查询失败: " + error.code + " " + error.message);
+	          }
+	        });
+//	       $(document).on("pageinit","#pageone",function(){  
+//			}); 
+        $(".check a").on("tap",function(){
+		 getData();
+		});
+		$(".cont_l5 #cont_l51").on("tap", function() {
+			
+		});
+		function getData() {
+			$('.cont_l5 #cont_l51').remove();
+			$('.cont_l5 .check').remove();
+			Bmob.initialize("99fa1b916f70bcef5f6da908994f9348","0dba68e39f3ec1f8aeddbfe8d049dd4c");
+		    var JianZhi = Bmob.Object.extend("T_jianzhi");
+			var query = new Bmob.Query(JianZhi);
+			var p1 = "http://file.bmob.cn/";
+		    query.find({
+	          success: function(results) {
+	            for (var i = 0; i < results.length; i++) {
+	              var object = results[i];
+	              var title = object.get('Jianzhi_Title'); 
+	              var place = object.get('Jianzhi_Place');
+	              var money = object.get('Jianzhi_money');
+	              var time = object.createdAt;
+	              var url  = object.get("Jianzhi_Url");
+                  var Time = getDateTimeStamp(time);
+                  var time1 = getDateDiff(Time);
+                  var id = object.id;
+                  console.log(id);
+	              // console.log(url);
+	              var p = '<div id="cont_l51"><hr/><div class="content_div" id="'+id+'"><a style="clear:both"><div class="img"><span id="sp1"><img src="'+url+'"></span></div><div class="contained"><div class="title_time"><span class="title">'+title+'</span><span class="time">'+time1+'</span></div><div class="place">'+place+'</div><div class="money">'+money+'</div></div></a></div></div>';
+	              $('.cont_l5').append(p);
+	            }
+	             $('.cont_sp1 span').html('('+results.length+')');
+	          },
+	          error: function(error) {
+	            alert("查询失败: " + error.code + " " + error.message);
+	          }
+	        });
+	        return;
+		}
+		var Request = new Object();
+        Request = GetRequest();
+        var id='';
+        id = Request["id"];
+		query.get(id, {
+		  success: function(results) {
+		    // 查询成功，调用get方法获取对应属性的值
+		   var title = results.get('Jianzhi_Title'); 
+	       var place = results.get('Jianzhi_Place');
+	       var money = results.get('Jianzhi_money');
+	       var tele = results.get('Jianzhi_Telethone');
+	       var timeBefore = results.createdAt;
+	       console.log(timeBefore);
+//	       字符串截取
+           var time = timeBefore.substring(5,7);
+           var time1 =timeBefore.substring(8,10); 
+	       $("#sp1").html(title);
+	       $("#sp2").html(time+"月"+time1+"日");
+	       $(".cont_a2").html("地点:"+place+' '+"浏览:110");
+	       $('#money span').html(money);
+	       $('#address').append(place);
+	       $('.tele span').append(tele+'<a>拨打电话</a>');
+		  },
+		  error: function(object, error) {
+		    // 查询失败
+		  }
+		});
+		 // 比较时间戳
+		function getDateDiff(dateTimeStamp){
+				var minute = 1000 * 60;
+				var hour = minute * 60;
+				var day = hour * 24;
+				var halfamonth = day * 15;
+				var month = day * 30;
+				var now = new Date().getTime();
+				var diffValue = now - dateTimeStamp;
+				if(diffValue < 0){return;}
+				var monthC =diffValue/month;
+				var weekC =diffValue/(7*day);
+				var dayC =diffValue/day;
+				var hourC =diffValue/hour;
+				var minC =diffValue/minute;
+				if(monthC>=1){
+					result="" + parseInt(monthC) + "月前";
+				}
+				else if(weekC>=1){
+					result="" + parseInt(weekC) + "周前";
+				}
+				else if(dayC>=1){
+					result=""+ parseInt(dayC) +"天前";
+				}
+				else if(hourC>=1){
+					result=""+ parseInt(hourC) +"小时前";
+				}
+				else if(minC>=1){
+					result=""+ parseInt(minC) +"分钟前";
+				}else
+				result="刚刚";
+				return result;
+			}
+		// 转化为时间戳
+		function getDateTimeStamp(dateStr){
+			  return Date.parse(dateStr.replace(/-/gi,"/"));
+			}
+		function GetRequest() {
+		   var url = location.search; //获取url中"?"符后的字串
+		   var theRequest = new Object();
+		   if (url.indexOf("?") != -1) {
+		      var str = url.substr(1);
+		      strs = str.split("&");
+		      for(var i = 0; i < strs.length; i ++) {
+		         theRequest[strs[i].split("=")[0]]=(strs[i].split("=")[1]);
+		      }
+		   }
+		   return theRequest;
+		}
+		$("#header a").live("click", function(){
+//			alert("sss");
+			window.history.back(-1);
+		});
+	   $("#cont_l51 .content_div").live("click", function() {
+	   	  var id = $(this).attr("id");
+	   	 window.location.href="http://127.0.0.1:8020/infomation/JianZhi.html?id="+id+"";
+	   });
+//      console.log("id="+id);
+	</script>
+    </div>
+  
+</body>
+</html>
