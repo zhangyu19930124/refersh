@@ -104,11 +104,17 @@
 //		  	console.log("ddd");
 //		});
        
-		$(".event .cont_div").live("click", function(){
+		$(".event .cont_div").live("tap", function(){
 			var id = $(this).attr("id");
 //			alert(id);
-			window.location.href="http://127.0.0.1:8020/infomation/JianZhi.html?id="+id+"";
+//           $.mobile.changePage("JianZhi.html",
+//           {transition: "slideup" });
+			window.location.href="JianZhi.html?id="+id+"";
 		});
+//		实现下拉刷新
+        
+
+//		实现下拉刷新   
 //	    $.mobile.changePage ('../path/to/page.html');
      </script>
     <!-- js代码 -->
